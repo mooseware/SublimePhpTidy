@@ -2,15 +2,17 @@
 #### [Sublime Text 2](http://www.sublimetext.com/2)
 
 ## About
-This is a Sublime Text 2 plugin allowing you to format your PHP code. 
+This is a Sublime Text 2 plugin allowing you to format your PHP code. This script was created by welovewordpress (https://github.com/welovewordpress/SublimePhpTidy).
 
-It uses wp-phptidy, which is a little tool for formatting PHP code to conform the [WordPress Coding Standards](http://codex.wordpress.org/WordPress_Coding_Standards).
+In my version, it uses the Allman Style (http://en.wikipedia.org/wiki/Indent_style#Allman_style) for PHP-code formatting.
 
 It is based on the [phptidy](http://phptidy.berlios.de/) script by Magnus Rosenbaum.
 
 Modifications were made by Eoin Gallagher and described here:
 
 http://magp.ie/2011/01/10/tidy-and-format-your-php-and-meet-wordpress-standards-on-coda-and-textwrangler/
+
+
 
 ## Usage
 ctrl + shift + P and type `Tidy PHP`, or you can use the ctrl + alt + T keybinding.
@@ -20,15 +22,4 @@ Custom settings file (for choosing between original phptidy and wp-phptidy) comi
 
 ## Install
 
-### Package Control
-
-The easiest way to install this is with [Package Control](http://wbond.net/sublime\_packages/package\_control).
-
- * If you just went and installed Package Control, you probably need to restart Sublime Text 2 before doing this next bit.
- * Bring up the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows).
- * Select "Package Control: Install Package" (it'll take a few seconds)
- * Select PhpTidy when the list appears.
-
-Package Control will automatically keep Git up to date with the latest version.
-
-If you have some problems or improvements with it, contact me via GitHub.
+Just download it and copy the uncompressed folder to your Packages directory of Sublime Text 2.
