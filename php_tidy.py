@@ -12,7 +12,7 @@ class PhpTidyCommand(sublime_plugin.TextCommand):
 
             # path to plugin - <sublime dir>/Packages/PhpTidy
             pluginpath = sublime.packages_path() + '/PhpTidy'
-            scriptpath = pluginpath + '/wp-phptidy.php'
+            scriptpath = pluginpath + '/allman.php'
 
             # path to temp file
             tmpfile = '/tmp/phptidy-sublime-buffer.php'
@@ -44,7 +44,7 @@ class PhpTidyCommand(sublime_plugin.TextCommand):
 
 
             # call phptidy on tmpfile
-            scriptpath = pluginpath + '/wp-phptidy.php'
+            scriptpath = pluginpath + '/allman.php'
             print('PhpTidy: calling script: %s "%s" replace "%s"' % ( phppath, scriptpath, tmpfile ) )
             retval = os.system( '%s "%s" replace "%s"' % ( phppath, scriptpath, tmpfile ) )
             if retval != 0:
