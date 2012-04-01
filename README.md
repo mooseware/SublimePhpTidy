@@ -13,7 +13,6 @@ Modifications were made by Eoin Gallagher and described here:
 http://magp.ie/2011/01/10/tidy-and-format-your-php-and-meet-wordpress-standards-on-coda-and-textwrangler/
 
 
-
 ## Usage
 ctrl + shift + P and type `Tidy PHP`, or you can use the ctrl + alt + T keybinding.
 
@@ -21,5 +20,4 @@ ctrl + shift + P and type `Tidy PHP`, or you can use the ctrl + alt + T keybindi
 Custom settings file (for choosing between original phptidy and wp-phptidy) coming soon.
 
 ## Install
-
 Just download it and copy the uncompressed folder to your Packages directory of Sublime Text 2.
